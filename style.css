@@ -238,11 +238,11 @@ ul {
   .box {
     flex: 1;
     border: 1px solid black;
-    box-sizing: border-box; /* Include borders in the width */
-    margin: 5px; /* Add some margin between boxes */
-    display: flex; /* Enable flex layout */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    box-sizing: border-box; 
+    margin: 5px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
   }
   .container1 {
     display: flex;
@@ -255,11 +255,73 @@ ul {
   .box {
     flex: 1;
     border: 1px solid black;
-    box-sizing: border-box; /* Include borders in the width */
-    margin: 5px; /* Add some margin between boxes */
+    box-sizing: border-box; 
+    margin: 5px; 
    
   }
   
 
+
+
+@media screen and (max-width: 480px) {
+    .logo {
+      font-size: 30px;
+      line-height: 60px;
+    }
+  
+    .headline,
+    .second-line,
+    .text,
+    .head1,
+    .sub,
+    .features,
+    ul,
+    li,
+    .head2,
+    .sub1,
+    .head3,
+    .sub2,
+    .head31,
+    .sub21,
+    .logo1,
+    .head4,
+    .container {
+      width: 100%;
+      font-size: 16px;
+      text-align: center;
+    }
+    .container1 {
+      width: 100%;
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .download {
+      width:30%;
+      height:40px;
+      margin-right: 10px;
+      font-size: 20px;
+    }
+    .sub3{
+      width: 100%;
+      height: 55px;
+      font-size: 16px;
+      text-align: center;
+    }
+    }
   
 
+
+@media screen and (max-width: 480px) {
+    .logo {
+      font-size: 30px;
+      line-height: 60px;
+    }
+}
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+  }
