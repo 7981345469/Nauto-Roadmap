@@ -1,0 +1,265 @@
+.border-box{
+    border:1px solid black;
+
+}
+.header {
+    border: 1px solid #000;
+    padding: 20px;
+    position: relative;
+}
+
+.main {
+    border: 1px solid #000;
+    padding: 20px;
+}
+.footer {
+    border: 1px solid #000;
+    padding: 20px;
+}
+.logo{
+    height:100px;
+    width:200px;
+    margin-top: 20px;
+    margin-bottom:20px ;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+
+    
+}
+.smltext{
+    height:20px;
+    width:40px;
+    margin-top: 20px;
+    margin-bottom:20px ;
+    font-size: 10px;
+    text-align: center;
+    line-height:20px;
+   
+}
+.headline {
+    height:100px;
+    width:70%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center; /* Center the text horizontally */
+    padding: 10px; /* Add padding for spacing within the border box */
+    font-size:37px;
+    text-align: left;
+}
+  
+  .second-line {
+    display: block;
+    font-size: 37px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Adjust the line height as needed */
+  }
+  
+
+.text{
+    height:120px;
+    width:80%;
+    margin-top: 20px;
+    margin-bottom:20px ;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center; /* Center the text horizontally */
+    padding: 10px; /* Add padding for spacing within the border box */
+    font-size:29px;
+    text-align: left;
+
+}
+.download{
+    height: 100px;
+    width: 200px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    margin-left: auto;
+    margin-right: 20px; 
+    position: absolute;
+    right: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-30%);
+    font-size: 25px;
+  }
+  
+.head1{
+    height:100px;
+    width:70%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center; /* Center the text horizontally */
+    padding: 10px; /* Add padding for spacing within the border box */
+    font-size:37px;
+    text-align: left;
+}
+.sub {
+    height:139px;
+    width:80%;
+    margin-top: 20px;
+    margin-bottom:20px ;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center; /* Center the text horizontally */
+    padding: 10px; /* Add padding for spacing within the border box */
+    font-size:29px;
+    text-align: left;
+   
+}
+.features{
+    height:100px;
+    width:200px;
+    margin-top: 20px;
+    margin-bottom:20px ;
+    margin:left;
+    
+}
+ul {
+    list-style: disc; 
+    padding-left: 20px; 
+  }
+  
+  li {
+    font-size: 18px; 
+    margin-bottom: 10px; 
+  }
+.head2{
+    height:60px;
+    width:70%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center; /* Center the text horizontally */
+    padding: 10px; /* Add padding for spacing within the border box */
+    font-size:37px;
+    text-align: left;
+}
+.sub1{
+    height:80px;
+    width:80%;
+    margin-top: 20px;
+    margin-bottom:20px ;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center; /* Center the text horizontally */
+    padding: 10px; /* Add padding for spacing within the border box */
+    font-size:30px;
+    text-align: left;
+    
+}
+.head3{
+    height:60px;
+    width:70%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center; /* Center the text horizontally */
+    padding: 10px; /* Add padding for spacing within the border box */
+    font-size:37px;
+    text-align: left;
+   
+}
+.sub2{
+    height:80px;
+    width:80%;
+    margin-top: 20px;
+    margin-bottom:20px ;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center; /* Center the text horizontally */
+    padding: 10px; /* Add padding for spacing within the border box */
+    font-size:30px;
+    text-align: left;
+    
+}
+.head31{
+    height:60px;
+    width:70%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center; /* Center the text horizontally */
+    padding: 10px; /* Add padding for spacing within the border box */
+    font-size:37px;
+    text-align: left;
+}
+.sub21{
+    height:80px;
+    width:80%;
+    margin-top: 20px;
+    margin-bottom:20px ;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center; /* Center the text horizontally */
+    padding: 10px; /* Add padding for spacing within the border box */
+    font-size:30px;
+    text-align: left;
+    
+}
+
+.logo1{
+    height:40px;
+    width:60px;
+    margin-top: 20px;
+    margin-bottom:20px ;
+    margin:0 auto;
+    font-size:20px;
+    text-align: center;
+    
+}
+.head4{
+    height:40px;
+    width:60%;
+    margin-top: 20px;
+    margin-bottom:120px;
+    margin: 0 auto;
+    text-align: center;
+    font-size:28px;
+
+    
+
+}
+.sub3{
+    height:30px;
+    width:80%;
+    margin-top: 20px;
+    margin-bottom:120px ;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+.container {
+    display: flex;
+    height:40px;
+    width:40%;
+    margin:auto;
+    
+  }
+  
+  .box {
+    flex: 1;
+    border: 1px solid black;
+    box-sizing: border-box; /* Include borders in the width */
+    margin: 5px; /* Add some margin between boxes */
+    display: flex; /* Enable flex layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  .container1 {
+    display: flex;
+    height:80px;
+    width:20%;
+    margin:auto;
+    
+  }
+  
+  .box {
+    flex: 1;
+    border: 1px solid black;
+    box-sizing: border-box; /* Include borders in the width */
+    margin: 5px; /* Add some margin between boxes */
+   
+  }
+  
+
+  
+
