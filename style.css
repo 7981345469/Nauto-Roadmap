@@ -6,8 +6,11 @@
     border:none;
     padding: 30px;
     position: relative;
-
-  }
+    background-image:linear-gradient(180deg, rgba(46, 47, 58, 0.8), rgba(46, 47, 58, 0.8)),  url('./images/background-leadership-team.jpeg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
   
   .main {
     border: none;
@@ -25,16 +28,20 @@
   .logo {
     height: 100px;
     width: 200px;
-    margin-top: 10px;
+    margin-top: -35px;
     margin-bottom: 20px;
     font-size: 50px;
     text-align: center;
     line-height: 100px;
     margin-right:5px;
     color:green;
-   
+    background-image: url("./images/nauto-logo-footer.svg");
+    background-size: 20px 20px; /* Adjust the size of the image symbol as needed */
+    background-position:left center; /* Adjust the position of the symbol relative to the text */
+    background-repeat: no-repeat;
+    padding-left: 25px;
+
   }
-  
   .smltext {
     height: 20px;
     width: 40px;
@@ -50,17 +57,18 @@
   .headline {
     height: 100px;
     width: 70%;
-    border: none;
-    box-sizing: none;
     text-align: center;
     padding: 10px;
-    font-size: 45px;
+    position: relative;
+    font-size: 55px;
     text-align: left;
+    color:white;
+    margin-top: 10px;
   }
   
   .second-line {
     display: block;
-    font-size: 45px;
+    font-size: 55px;
     line-height: 1.5;
   }
   
@@ -91,8 +99,8 @@
   .download {
     height: 100px;
     width: 200px;
-    margin-top: -20px;
-    margin-bottom: 10px;
+    margin-top:20px;
+    margin-bottom:80px;
     margin-left:auto;
     margin-right: 120px;
     position: absolute;
@@ -278,37 +286,39 @@
     font-size: 22px;
     line-height: 1.5;
     height:20px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-bottom: 20px;
+    padding-bottom: -20px;
   }
   
   .logo1 {
     height: 40px;
     width: 60px;
-    margin-top: -20px;
-    margin-bottom: 20px;
-    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin:auto;
     font-size: 20px;
     text-align: center;
     color:grey;
   }
   
   .head4 {
-    height: 40px;
-    width: 60%;
-    margin-top: 20px;
-    margin-bottom: 120px;
-    margin: 0 auto;
+    height: 60px;
+    width: 90%;
+    margin-top:10px;
+    margin:auto;
+    margin-bottom: -50px;
+    padding:30px;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     color:grey;
   }
   
   .sub3 {
     height: 30px;
     width: 80%;
-    margin-top: -10px;
-    margin-bottom: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding:-20px;
     margin: 0 auto;
     text-align: center;
     color:grey;
@@ -341,6 +351,8 @@
     margin: auto;
     color: grey;
   }
+  
+
   @media screen and (max-width: 480px) {
     .logo {
       font-size: 30px;
@@ -396,18 +408,20 @@
     }
     }
   
-
-
-@media screen and (max-width: 480px) {
+  
+  
+  @media screen and (max-width: 480px) {
     .logo {
       font-size: 30px;
       line-height: 60px;
     }
-}
+  }
   @media screen and (min-width: 481px) and (max-width: 768px) {
     
   }
   
   @media screen and (min-width: 769px) and (max-width: 1024px) {
     
-  }  
+  }    
+
+
