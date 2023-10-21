@@ -1,62 +1,114 @@
 .border-box {
-    border: none;
-  }
+  border: none;
+}
+  body {
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+.card{
+  width:26%;
+  height:95px;
+ margin:30px auto;
+ border:0.1px solid whitesmoke;
+ background:white;
+ display:grid;
+ border-radius: 5px;
+ overflow:hidden;
+ margin-right:80px;
+ padding:30px;
+}
+.cover{
+ height:350px;
+ background: #e8ecef;
+}
+.info{
+ padding: 30px;
+ text-align: right;
+}
+.line{
+  font-family: 'Circularstd-Medium', sans-serif;
+  font-size: 30px;
+  margin-top:5px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: -20px;
+  text-overflow: ellipsis;
+  margin-right: 30px;
+}
+@font-face {
+  font-family: 'Circular';
+  src: url('./Circular/CircularStd-Bold.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
   
   .header {
     border:none;
-    padding: 30px;
+    font-family: 'Circular', sans-serif;
+    padding: 0;
+    margin: 0;
     position: relative;
     background-image:linear-gradient(180deg, rgba(46, 47, 58, 0.8), rgba(46, 47, 58, 0.8)),  url('./images/background-leadership-team.jpeg');
     background-size: cover;
     background-position: center; 
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    height:85vh;
 }
   
   .main {
     border: none;
-    padding: 30px;
+    padding: 0px;
+    margin:0;
 
 
   }
   
   .footer {
-    border: 1px solid grey;
-    padding: 30px;
-    background-color:  #e8ecef;;
+    padding: 0px;
+    background-color:  #e8ecef;
+    height:300px;
   }
   
   .logo {
     height: 100px;
     width: 200px;
-    margin-top: -35px;
+    margin-top: 10px;
     margin-bottom: 20px;
     font-size: 50px;
-    text-align: center;
-    line-height: 100px;
-    margin-right:5px;
+    text-align: left center;
+    margin-left:30px;
     color:green;
     background-image: url("./images/nauto-logo-footer.svg");
     background-size: 20px 20px; /* Adjust the size of the image symbol as needed */
     background-position:left center; /* Adjust the position of the symbol relative to the text */
     background-repeat: no-repeat;
-    padding-left: 25px;
+    padding-left: 24px;
+    font-size: 30px;
+    line-height: 100px;
 
   }
+
+  
   .smltext {
     height: 20px;
+    font-family: 'Circular', sans-serif;
     width: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 16px;
     text-align: center;
     line-height: 20px;
-    margin-left: 15px;
+    margin-left: 50px;
     color:grey;
   }
+
   
   .headline {
     height: 100px;
     width: 70%;
+    font-family: 'Circular', sans-serif;
     text-align: center;
     padding: 10px;
     position: relative;
@@ -64,35 +116,38 @@
     text-align: left;
     color:white;
     margin-top: 10px;
+    margin-left: 35px;
   }
   
   .second-line {
     display: block;
+    margin-top: -20px;
     font-size: 55px;
     line-height: 1.5;
   }
   
   .text {
-    height: 120px;
+    height: 100px;
     width: 80%;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
+    margin-left: 35px;
     border: none;
     box-sizing:none;
     text-align: center;
     padding: 10px;
-    font-size: 22px;
+    font-size: 18px;
     text-align: left;
     color:grey;
   }
   .second-line1 {
     display: block;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.5;
   }
   .second-line2 {
     display: block;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.5;
   }
   
@@ -111,20 +166,23 @@
     transform: translateY(-30%);
     font-size: 30px;
   }
-  
+
   .head1 {
     height: 100px;
     width: 70%;
+    font-family: 'Circular', sans-serif;
     border: none;
     box-sizing: none;
     text-align: center;
     padding: 10px;
-    font-size: 35px;
+    font-size: 30px;
     text-align: left;
+    margin-left: 50px;
+    margin-top:45px;
   }
   .second-line3 {
     display: block;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 1.5;
   }
 
@@ -132,25 +190,26 @@
   .sub {
     height: 139px;
     width: 80%;
-    margin-top: -10px;
+    margin-top: -20px;
     margin-bottom: 20px;
+    margin-left:50px;
     border: none;
     box-sizing:none;
     text-align: center;
     padding: 10px;
-    font-size: 22px;
+    font-size: 20px;
     text-align: left;
     color:grey
     
   }
   .second-line4 {
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.5;
   }
   .second-line5 {
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.5;
     height:20px;
     margin-bottom: 0;
@@ -163,11 +222,12 @@
     box-sizing:none;
     text-align: center;
     padding: 10px; 
-    font-size:25px;
+    font-size:20px;
     text-align: left;
     color:grey;
-    margin-top: -40px;
+    margin-top: -50px;
     padding-top: 0;
+    margin-left: 50px;
   }
   .features {
     height: 100px;
@@ -176,6 +236,8 @@
     margin-bottom: 20px;
     margin: left 20px;
     color:grey;
+    margin-left: 75px;
+
   }
   
   ul {
@@ -187,34 +249,43 @@
     font-size: 18px;
     margin-bottom: 10px;
   }
+  @font-face {
+    font-family: 'Circular';
+    src: url('./Circular/CircularStd-Medium.woff') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
   
   .head2 {
     height: 60px;
     width: 70%;
+    font-family: 'Circularstd-Medium', sans-serif;
     border: none;
     box-sizing: none;
     text-align: center;
     padding: 10px;
-    font-size: 35px;
+    font-size: 30px;
     text-align: left;
+    margin-left: 50px;
   }
   
   .sub1 {
     height: 80px;
     width: 80%;
-    margin-top: -15px;
+    margin-top: -25px;
     margin-bottom: 20px;
     border: none;
     box-sizing: none;
     text-align: center;
     padding: 10px;
-    font-size: 22px;
+    font-size: 20px;
     text-align: left;
     color:grey;
+    margin-left: 50px;
   }
   .second-line6 {
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.5;
     height:20px;
     margin-bottom: 0;
@@ -225,31 +296,34 @@
   .head3 {
     height: 60px;
     width: 70%;
+    font-family: 'Circularstd-Medium', sans-serif;
     margin-top: -20px;
     border: none;
     box-sizing: none;
     text-align: center;
     padding: 10px;
-    font-size: 35px;
+    font-size: 30px;
     text-align: left;
+    margin-left:50px;
   }
   
   .sub2 {
     height: 80px;
     width: 80%;
-    margin-top: -20px;
+    margin-top: -25px;
     margin-bottom: 20px;
     border: none;
     box-sizing: none;
     text-align: center;
     padding: 10px;
-    font-size: 22px;
+    font-size: 20px;
     text-align: left;
     color:grey;
+    margin-left: 50px;
   }
   .second-line7{
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.5;
     height:20px;
     margin-bottom: 0;
@@ -259,13 +333,15 @@
   .head31 {
     height: 60px;
     width: 70%;
+    font-family: 'Circularstd-Medium', sans-serif;
     margin-top: -20px;
     border: none;
     box-sizing:none;
     text-align: center;
     padding: 10px;
-    font-size: 35px;
+    font-size: 30px;
     text-align: left;
+    margin-left:50px;
   }
   
   .sub21 {
@@ -277,13 +353,14 @@
     box-sizing: none;
     text-align: center;
     padding: 10px;
-    font-size: 22px;
+    font-size: 20px;
     text-align: left;
     color:grey;
+    margin-left: 50px;
   }
   .second-line8{
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.5;
     height:20px;
     margin-bottom: 20px;
@@ -291,25 +368,27 @@
   }
   
   .logo1 {
-    height: 40px;
+    height: 70px;
     width: 60px;
-    margin-top: 10px;
-    margin-bottom: 40px;
-    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin: auto;
     font-size: 20px;
     text-align: center;
-    color:grey;
-  }
-  
+    color: grey;
+}
+.logo1 img {
+  margin-top: 40px; /* Add margin above the image to push it below the text */
+}
   .head4 {
-    height: 60px;
+    height: 50px;
     width: 90%;
     margin-top:10px;
     margin:auto;
     margin-bottom: -50px;
     padding:30px;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     color:grey;
   }
   
@@ -352,7 +431,81 @@
     color: grey;
   }
   
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 30px;
+      line-height: 60px;
+    }
+  
+    .headline
+    .card,.info,.cover,.line,
+    .second-line,
+    .text,
+    .second-line1,
+    .head1,
+    .second-line2
+    .sub,
+    .second-line3,
+    .second-line4,
+    .second-line5,
+    .second-line6,
+    .second-line7,
+    .second-line8,
+    .features,
+    ul,
+    li,
+    .head2,
+    .sub1,
+    .head3,
+    .sub2,
+    .head31,
+    .sub21,
+    .logo1,
+    .head4,
+    .container {
+      width: 100%;
+      font-size: 10px;
+      text-align: center;
+    }
+    .container1 {
+      width: 100%;
+      font-size: 10px;
+      text-align: center;
+    }
+  
+    .download {
+      width:30%;
+      height:40px;
+      margin-right: 10px;
+      font-size: 20px;
+    }
+    .sub3{
+      width: 100%;
+      height: 55px;
+      font-size: 10px;
+      text-align: center;
+    }
+    }
+  
+  
 
+
+  
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 30px;
+      line-height: 60px;
+    }
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+  }    
+  
+  
   @media screen and (max-width: 480px) {
     .logo {
       font-size: 30px;
@@ -360,6 +513,8 @@
     }
   
     .headline,
+    .card,.info,.line,.cover,
+    .fontface
     .second-line,
     .text,
     .second-line1,
@@ -423,5 +578,6 @@
   @media screen and (min-width: 769px) and (max-width: 1024px) {
     
   }    
-
-
+  
+  
+  
